@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  body {
+    background-color: theme('colors.background');
+    color: theme('colors.textLight');
+    @apply font-sans antialiased;
+  }
+}
